@@ -9,9 +9,9 @@ const WelcomeScreen = (props: { children?: React.ReactNode }) => {
       {props.children || (
         <>
           <Center />
-          <MenuHint />
+          {/*<MenuHint />
           <ToolbarHint />
-          <HelpHint />
+          <HelpHint />*/}
         </>
       )}
     </>

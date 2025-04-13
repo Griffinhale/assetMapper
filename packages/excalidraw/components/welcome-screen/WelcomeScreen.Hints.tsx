@@ -11,10 +11,10 @@ const MenuHint = ({ children }: { children?: React.ReactNode }) => {
   return (
     <WelcomeScreenMenuHintTunnel.In>
       <div className="excalifont welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--menu">
-        {WelcomeScreenMenuArrow}
+        {/*WelcomeScreenMenuArrow}
         <div className="welcome-screen-decor-hint__label">
           {children || t("welcomeScreen.defaults.menuHint")}
-        </div>
+        </div>*/}
       </div>
     </WelcomeScreenMenuHintTunnel.In>
   );
@@ -26,10 +26,10 @@ const ToolbarHint = ({ children }: { children?: React.ReactNode }) => {
   return (
     <WelcomeScreenToolbarHintTunnel.In>
       <div className="excalifont welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--toolbar">
-        <div className="welcome-screen-decor-hint__label">
+        {/*<div className="welcome-screen-decor-hint__label">
           {children || t("welcomeScreen.defaults.toolbarHint")}
         </div>
-        {WelcomeScreenTopToolbarArrow}
+        {WelcomeScreenTopToolbarArrow*/}
       </div>
     </WelcomeScreenToolbarHintTunnel.In>
   );
@@ -41,8 +41,8 @@ const HelpHint = ({ children }: { children?: React.ReactNode }) => {
   return (
     <WelcomeScreenHelpHintTunnel.In>
       <div className="excalifont welcome-screen-decor welcome-screen-decor-hint welcome-screen-decor-hint--help">
-        <div>{children || t("welcomeScreen.defaults.helpHint")}</div>
-        {WelcomeScreenHelpArrow}
+       {/*} <div>{children || t("welcomeScreen.defaults.helpHint")}</div>
+        {WelcomeScreenHelpArrow*/}
       </div>
     </WelcomeScreenHelpHintTunnel.In>
   );

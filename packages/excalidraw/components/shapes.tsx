@@ -28,7 +28,7 @@ export const SHAPES = [
     numericKey: KEYS["2"],
     fillable: true,
   },
-  {
+  /*{
     icon: DiamondIcon,
     value: "diamond",
     key: KEYS.D,
@@ -48,7 +48,7 @@ export const SHAPES = [
     key: KEYS.A,
     numericKey: KEYS["5"],
     fillable: true,
-  },
+  },*/
   {
     icon: LineIcon,
     value: "line",

@@ -4519,7 +4519,7 @@ class App extends React.Component<AppProps, AppState> {
               })`,
             );
           }
-          if (shape === "arrow" && this.state.activeTool.type === "arrow") {
+          /*if (shape === "arrow" && this.state.activeTool.type === "arrow") {
             this.setState((prevState) => ({
               currentItemArrowType:
                 prevState.currentItemArrowType === ARROW_TYPE.sharp
@@ -4528,7 +4528,7 @@ class App extends React.Component<AppProps, AppState> {
                   ? ARROW_TYPE.elbow
                   : ARROW_TYPE.sharp,
             }));
-          }
+          }*/
           this.setActiveTool({ type: shape });
           event.stopPropagation();
         } else if (event.key === KEYS.Q) {

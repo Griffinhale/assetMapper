@@ -95,8 +95,8 @@ const Center = ({ children }: { children?: React.ReactNode }) => {
       <div className="welcome-screen-center">
         {children || (
           <>
-            <Logo />
-            <Heading>{t("welcomeScreen.defaults.center_heading")}</Heading>
+            {/*<Logo />
+            <Heading>{t("welcomeScreen.defaults.center_heading")}</Heading>*/}
             <Menu>
               <MenuItemLoadScene />
               <MenuItemHelp />
@@ -112,7 +112,7 @@ Center.displayName = "Center";
 const Logo = ({ children }: { children?: React.ReactNode }) => {
   return (
     <div className="welcome-screen-center__logo excalifont welcome-screen-decor">
-      {children || <ExcalidrawLogo withText />}
+      {/*children || <ExcalidrawLogo withText />*/}
     </div>
   );
 };
