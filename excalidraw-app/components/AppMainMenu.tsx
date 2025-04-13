@@ -40,7 +40,7 @@ export const AppMainMenu: React.FC<{
       <MainMenu.DefaultItems.Help />
       <MainMenu.DefaultItems.ClearCanvas />
       <MainMenu.Separator />
-      <MainMenu.ItemLink
+      {/*}<MainMenu.ItemLink
         icon={ExcalLogo}
         href={`${
           import.meta.env.VITE_APP_PLUS_LP
@@ -76,7 +76,7 @@ export const AppMainMenu: React.FC<{
           Visual Debug
         </MainMenu.Item>
       )}
-      <MainMenu.Separator />
+      <MainMenu.Separator />{{*/}
       <MainMenu.DefaultItems.ToggleTheme
         allowSystemTheme
         theme={props.theme}
